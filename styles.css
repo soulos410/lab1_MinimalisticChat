@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-size: 27px;
+    background-image: url("background.jpg");
+}
+.panel{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #808080;
+}
+input{
+    font-size: inherit;
+    width: 99%;
+}
+.inputs{
+    display: flex;
+}
+.input-left{
+    max-width: 20%;
+    padding-right: 0.5em;
+}
+.input-left,.input-right{
+    flex-grow: 1;
+    background-image: inherit;
+}
